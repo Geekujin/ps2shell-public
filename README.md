@@ -25,6 +25,7 @@ Message of the Day
 
 [09:14:02] Alex@MY-LAPTOP:~\Projects$
 ```
+The name is a play on all of the recent *2Shell vulnerabilities that have been disclosed recently.
 
 ---
 
@@ -535,3 +536,9 @@ Run `reload` to pick up your changes.
 - **No self-updater yet.** The `UpdateProfile` feature flag, and the `update` alias in the example config, refer to `Update-Profile`. This function isn't included yet, so keep the flag `false` and remove the `update` alias until it is.
 - **Windows only.** The profile may load on PowerShell 7 for Linux or macOS, but the network box, computer name and several scripts depend on Windows.
 - **One banner theme.** The startup banner always uses the `Standard` art theme. Other themes are only available through `Write-ColorMappedArt` or editing the profile.
+
+---
+
+## AI Disclosure
+
+Claude was used to pull some of the docs and scripts together to speed up creation, however no code has just been blindly pushed, AI has been used as a tool not a replacement for thinking and understand.
